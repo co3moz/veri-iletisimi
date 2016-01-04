@@ -96,9 +96,31 @@ Bilgisayar ağını oluşturan elemanların yada birimlerin fiziksel veya mantı
 İletim modları bir sistemde iletimin nasıl gerçekleştiğini tanımlar
 
 * Simplex (Tek yön) _Televizyon_
+
+<img src='http://g.gravizo.com/g?
+ digraph G {
+   A->B
+ }
+'/>
+
 * Half duplex (Her iki yönde ancak aynı anda aktarım olma) _Polis radyosu_
+
+<img src='http://g.gravizo.com/g?
+ digraph G {
+   M[shape=box,label="Müsaitse kontrolu al"]
+   A->M-> A
+   B->M-> B
+ }
+'/>
+
 * Full duplex (Aynı anda her iki yönde) _Telefon_
 
+<img src='http://g.gravizo.com/g?
+ digraph G {
+   A->B
+   B->A
+ }
+'/>
 
 
 
