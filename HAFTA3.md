@@ -11,6 +11,8 @@ Verinin elektrik yada elektromanyetik gösterilimi.
 * Analog Sinyal: Genlik ve sıklığı zamanda sürekli değişken dalga, Sürekli sinyal
 * Sayısal Sinyal: Genlik ve sıklığı sabit bir seviyeden diğer bir sabit seviyeye değişen sinyal, Ayrık sinyal
 
+![](analog-digital-signal.png)
+
 #### İletim
 Sinyallerin yayılması ve işlenmesi vasıtasıyla verinin iletişimi
 * Analog İletim: Analog veya Sayısal verinin analog sinyal vasıtasıyla taşınmasıdır.
