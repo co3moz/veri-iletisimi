@@ -165,3 +165,4 @@ TCP/IP Protokol ailesinde;
 * IP (ARP, IGMP, ICMP) internet katmanı
 * Eternet, Token Ring, Frame Relay, ATM Ağ erişim katmanını tanımlar.
 
+![](osi-tcp.png)
