@@ -32,10 +32,6 @@ Bazı Standart Organizasyonları
 
 Ticari uygulamalarının verdiği isimler daha yaygınsa **de facto** standart, Standart organizasyonlarının verdiği isimler daha yaygınsa **de jure** standarttır.
 
---------
-
-Temel Kavramlar
-------------
 
 #### Hat Konfigurasyonu
 
@@ -134,4 +130,30 @@ _Sayılar temsilidir. İlk tasarlanırken bu şekilde düşünülmüştür. Zama
 
 Örneğin bluetooth pan kategorisinde bulunmaktadır. 
 
+
+#### Ağ Modeli
+OSI referans modeli haberleşme sistemi problemini çözmek üzere ISO tarafından 1984'te Açık Sistem Bağlantıları (Open Systems Interconnection) adıyla oluşturulmuştur.
+
+7 Katmandan oluşmaktadır 
+* (7) Application
+* (6) Presentation
+* (5) Session
+* (4) Transport
+* (3) Network
+* (2) Data link
+* (1) Physical
+
+<img src='http://g.gravizo.com/g?
+ digraph G {
+   7[shape=box, label="7 uygulama katmanı"]
+   6[shape=box, label="6 sunum katmanı"]
+   5[shape=box, label="5 oturum katmanı"]
+   4[shape=box, label="4 taşıma katmanı"]
+   3[shape=box, label="3 ağ katmanı"]
+   2[shape=box, label="2 veri bağı katmanı"]
+   1[shape=box, label="1 fiziksel katman"]
+   7->6->5->4->3->2->1
+   1->2->3->4->5->6->7
+ }
+'/>
 
