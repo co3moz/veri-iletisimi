@@ -45,4 +45,60 @@ Temel Kavramlar
 
 İki farklı hat konfürasyonu vardır
 * Noktadan noktaya (point to point), İki cihaz arasında direk bağlantının olduğu durumdur. Sadece 2 bağlantı hattı paylaşır.
+
+<img src='http://g.gravizo.com/g?
+ digraph G {
+    a [shape=box, label="İstasyon A"]
+    b [shape=box, label="İstasyon B"]
+    a -> b -> a
+ }
+'/>
+
 * Çoklu nokta bğalantısı (multipoint), İkiden daha fazla cihaz hattı paylaşır, kanal kapasitesi cihazlar arasında paylaşılır.
+
+
+<img src='http://g.gravizo.com/g?
+ digraph G {
+    a [shape=box, label="İstasyon A"]
+    b [shape=box, label="İstasyon B"]
+    c [shape=box, label="İstasyon C"]
+    hat -> a -> hat
+    hat -> b -> hat
+    hat -> c -> hat
+    hat -> Mainframe
+    Mainframe -> hat
+ }
+'/>
+
+#### Topolojiler
+
+Bilgisayar ağını oluşturan elemanların yada birimlerin fiziksel veya mantıksal bağlantı ile oluşturulduğu yapı.
+
+4 tip topoloji vardır.
+
+* Yol (Doğrusal) topoloji
+* Yıldız (Star) topoloji
+* Halka (Ring) topoloji
+* Mesh topoloji
+
+<img src='http://g.gravizo.com/g?
+ digraph G {
+    Topoloji
+    Topoloji -> Mesh
+    Topoloji -> Yıldız
+    Topoloji -> Yol
+    Topoloji -> Halka
+ }
+'/>
+
+#### İletim Modları
+
+İletim modları bir sistemde iletimin nasıl gerçekleştiğini tanımlar
+
+* Simplex (Tek yön) _Televizyon_
+* Half duplex (Her iki yönde ancak aynı anda aktarım olma) _Polis radyosu_
+* Full duplex (Aynı anda her iki yönde) _Telefon_
+
+
+
+
