@@ -42,18 +42,17 @@ Ticari uygulamalarının verdiği isimler daha yaygınsa **de facto** standart, 
 İki farklı hat konfürasyonu vardır
 * Noktadan noktaya (point to point), İki cihaz arasında direk bağlantının olduğu durumdur. Sadece 2 bağlantı hattı paylaşır.
 
-<img src='http://g.gravizo.com/g?
+![](http://g.gravizo.com/g?
  digraph G {
     a [shape=box, label="İstasyon A"]
     b [shape=box, label="İstasyon B"]
     a -> b -> a
- }
-'/>
+ })
 
 * Çoklu nokta bğalantısı (multipoint), İkiden daha fazla cihaz hattı paylaşır, kanal kapasitesi cihazlar arasında paylaşılır.
 
 
-<img src='http://g.gravizo.com/g?
+![](http://g.gravizo.com/g?
  digraph G {
     a [shape=box, label="İstasyon A"]
     b [shape=box, label="İstasyon B"]
@@ -63,8 +62,7 @@ Ticari uygulamalarının verdiği isimler daha yaygınsa **de facto** standart, 
     hat -> c -> hat
     hat -> Mainframe
     Mainframe -> hat
- }
-'/>
+ })
 
 #### Topolojiler
 
@@ -77,15 +75,14 @@ Bilgisayar ağını oluşturan elemanların yada birimlerin fiziksel veya mantı
 * Halka (Ring) topoloji
 * Mesh topoloji
 
-<img src='http://g.gravizo.com/g?
+![](http://g.gravizo.com/g?
  digraph G {
     Topoloji
     Topoloji -> Mesh
     Topoloji -> Yıldız
     Topoloji -> Yol
     Topoloji -> Halka
- }
-'/>
+ })
 
 #### İletim Modları
 
@@ -93,30 +90,27 @@ Bilgisayar ağını oluşturan elemanların yada birimlerin fiziksel veya mantı
 
 * Simplex (Tek yön) _Televizyon_
 
-<img src='http://g.gravizo.com/g?
+![](http://g.gravizo.com/g?
  digraph G {
    A->B
- }
-'/>
+ })
 
 * Half duplex (Her iki yönde ancak aynı anda aktarım olma) _Polis radyosu_
 
-<img src='http://g.gravizo.com/g?
+![](http://g.gravizo.com/g?
  digraph G {
    M[shape=box,label="Müsaitse kontrolu al"]
    A->M-> A
    B->M-> B
- }
-'/>
+ })
 
 * Full duplex (Aynı anda her iki yönde) _Telefon_
 
-<img src='http://g.gravizo.com/g?
+![](http://g.gravizo.com/g?
  digraph G {
    A->B
    B->A
- }
-'/>
+ })
 
 #### Coğrafi yapılara göre ağ kategorileri
 
