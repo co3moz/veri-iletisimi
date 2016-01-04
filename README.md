@@ -24,3 +24,8 @@ Bazı Standart Organizasyonları
 * IAB
 * RFC
 
+2 standart kategori vardır
+* **De facto standart** - benimsenen kabul edilen (Ethernet)
+* **De jure standart** - kural - IEEE 802.3
+
+Ticari uygulamalarının verdiği isimler daha yaygınsa **de facto standart**, Standart organizasyonlarının verdiği isimler daha yaygınsa **de jure** standarttır.
