@@ -143,7 +143,7 @@ OSI referans modeli haberleşme sistemi problemini çözmek üzere ISO tarafınd
 * (2) Data link: İletim ortamına erişim
 * (1) Physical: İkili sayıların transferi
 
-<img src='http://g.gravizo.com/g?
+![](http://g.gravizo.com/g?
  digraph G {
    7[shape=box, label="7 uygulama katmanı"]
    6[shape=box, label="6 sunum katmanı"]
@@ -154,8 +154,7 @@ OSI referans modeli haberleşme sistemi problemini çözmek üzere ISO tarafınd
    1[shape=box, label="1 fiziksel katman"]
    7->6->5->4->3->2->1
    1->2->3->4->5->6->7
- }
-'/>
+ })
 
 #### Kapsülleme
 Katmanlar arasında header ekleme ve silme işlemidir.
