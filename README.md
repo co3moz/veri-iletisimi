@@ -155,7 +155,13 @@ Katmanlar arasında header ekleme ve silme işlemidir.
 
 ![](kk.png)
 
+#### OSI ve TCP/IP
 
+TCP/IP mimarisinde uygulama katmanı, OSI'de Uygulama Sunum ve Oturum katmanlarına karşılık gelir. Taşıma aynı şekilde taşımada, İnternet ağda, Ağ erişimde veri bağı ve fiziksel katmanlar olarak düşünülmüştür.
 
-
+TCP/IP Protokol ailesinde;
+* HTTP, FTP, SMTP, DNS, Telnet.. gibi protokoller uygulama
+* TCP veya UDP taşıma
+* IP (ARP, IGMP, ICMP) internet katmanı
+* Eternet, Token Ring, Frame Relay, ATM Ağ erişim katmanını tanımlar.
 
