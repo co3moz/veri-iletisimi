@@ -2,7 +2,7 @@ Veri İletişimine Giriş
 -------
 
 #### Protokol
-**Protokol:** İletişim için oluşturulan kuralların bütününü tanımlar, Hem gönderici hemde alıcı tarafında aynı yapıya ihtiyaç duyulmaktadır. 
+İletişim için oluşturulan kuralların bütününü tanımlar, Hem gönderici hemde alıcı tarafında aynı yapıya ihtiyaç duyulmaktadır. 
 
 Protokolün belirli bir formatı ve veri yapısı vardır. Frame adı altında (Çerçeve) çeşitli datalar saklanır. Örneğin Hedef adresi, Kaynak adresi veya verinin kendisi
 
@@ -14,7 +14,7 @@ _Örneğin A, B'e veri gönderiyor, B saniyede 10 sayı okuyabiliyor ancak A san
 
 
 #### Standartlar
-**Standartlar:** Farklı bir çok ürün vardır. Bu ürünlerin belirli standartlar altında birlikte çalışılabilmesi için geliştirilmiştir. Üreticiler ürünlerini bu standartlara göre yapar. 
+Farklı bir çok ürün vardır. Bu ürünlerin belirli standartlar altında birlikte çalışılabilmesi için geliştirilmiştir. Üreticiler ürünlerini bu standartlara göre yapar. 
 
 Bazı Standart Organizasyonları
 * ISO
@@ -30,7 +30,7 @@ Bazı Standart Organizasyonları
 * **De facto standart** - benimsenen kabul edilen (Ethernet)
 * **De jure standart** - kural - IEEE 802.3
 
-Ticari uygulamalarının verdiği isimler daha yaygınsa **de facto standart**, Standart organizasyonlarının verdiği isimler daha yaygınsa **de jure** standarttır.
+Ticari uygulamalarının verdiği isimler daha yaygınsa **de facto** standart, Standart organizasyonlarının verdiği isimler daha yaygınsa **de jure** standarttır.
 
 --------
 
@@ -122,5 +122,16 @@ Bilgisayar ağını oluşturan elemanların yada birimlerin fiziksel veya mantı
  }
 '/>
 
+#### Coğrafi yapılara göre ağ kategorileri
+
+* BAN (Body Area Network)  **~1m**
+* PAN (Personal A.N.) **~10m**
+* LAN (Local A.N.) **~500m**
+* MAN (Metropolitan A.N.) **~3-25km**
+* WAN (Wide A.N.) **~>10km**
+
+_Sayılar temsilidir. İlk tasarlanırken bu şekilde düşünülmüştür. Zaman içinde değişmiş güncellenmiştir._
+
+Örneğin bluetooth pan kategorisinde bulunmaktadır. 
 
 
