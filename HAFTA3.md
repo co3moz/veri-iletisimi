@@ -18,3 +18,4 @@ Sinyallerin yayılması ve işlenmesi vasıtasıyla verinin iletişimi
 * Analog İletim: Analog veya Sayısal verinin analog sinyal vasıtasıyla taşınmasıdır.
 * Sayısal İletim: Analog veya Sayısal verinin sayısal sinyal vasıtasıyla taşınmasıdır.
 
+$$test+1 $$
