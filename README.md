@@ -1,6 +1,7 @@
 Veri İletişimine Giriş
-=======
+-------
 
+#### Protokol
 **Protokol:** İletişim için oluşturulan kuralların bütününü tanımlar, Hem gönderici hemde alıcı tarafında aynı yapıya ihtiyaç duyulmaktadır. 
 
 Protokolün belirli bir formatı ve veri yapısı vardır. Frame adı altında (Çerçeve) çeşitli datalar saklanır. Örneğin Hedef adresi, Kaynak adresi veya verinin kendisi
@@ -12,6 +13,7 @@ Son olarakta zamanlama protokolün ne kadar hızlı çalıştığı ve doğru s�
 _Örneğin A, B'e veri gönderiyor, B saniyede 10 sayı okuyabiliyor ancak A saniyede 100 sayı gönderiyor. Gönderilen 90 sayı ne olacaktır?_
 
 
+#### Standartlar
 **Standartlar:** Farklı bir çok ürün vardır. Bu ürünlerin belirli standartlar altında birlikte çalışılabilmesi için geliştirilmiştir. Üreticiler ürünlerini bu standartlara göre yapar. 
 
 Bazı Standart Organizasyonları
@@ -29,3 +31,18 @@ Bazı Standart Organizasyonları
 * **De jure standart** - kural - IEEE 802.3
 
 Ticari uygulamalarının verdiği isimler daha yaygınsa **de facto standart**, Standart organizasyonlarının verdiği isimler daha yaygınsa **de jure** standarttır.
+
+--------
+
+Temel Kavramlar
+------------
+
+#### Hat Konfigurasyonu
+
+**Hat:** Fiziksel iletişim yolu
+
+**Hat Konfigürasyonu**: Bir cihazın bir hattaki ilişkisini tanımlar.
+
+İki farklı hat konfürasyonu vardır
+* Noktadan noktaya (point to point), İki cihaz arasında direk bağlantının olduğu durumdur. Sadece 2 bağlantı hattı paylaşır.
+* Çoklu nokta bğalantısı (multipoint), İkiden daha fazla cihaz hattı paylaşır, kanal kapasitesi cihazlar arasında paylaşılır.
