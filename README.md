@@ -135,13 +135,13 @@ _Sayılar temsilidir. İlk tasarlanırken bu şekilde düşünülmüştür. Zama
 OSI referans modeli haberleşme sistemi problemini çözmek üzere ISO tarafından 1984'te Açık Sistem Bağlantıları (Open Systems Interconnection) adıyla oluşturulmuştur.
 
 7 Katmandan oluşmaktadır 
-* (7) Application
-* (6) Presentation
-* (5) Session
-* (4) Transport
-* (3) Network
-* (2) Data link
-* (1) Physical
+* (7) Application: Uygulamalara ağ servisleri sunar
+* (6) Presentation: Veri formatı
+* (5) Session: Uç birimler arası iletişim
+* (4) Transport: Uçtan uca bağlantı
+* (3) Network: Adres ve en uygun patika
+* (2) Data link: İletim ortamına erişim
+* (1) Physical: İkili sayıların transferi
 
 <img src='http://g.gravizo.com/g?
  digraph G {
@@ -156,4 +156,13 @@ OSI referans modeli haberleşme sistemi problemini çözmek üzere ISO tarafınd
    1->2->3->4->5->6->7
  }
 '/>
+
+#### Kapsülleme
+Katmanlar arasında header ekleme ve silme işlemidir.
+
+![](kk.png)
+
+
+
+
 
