@@ -6,5 +6,5 @@
 * [İletim Bozulmaları, Kanal kapasitesi, ağlarda gecikme ve İletim ortamları](HAFTA4.md)
 * [Sayısal Veri - Sayısal Sinyal](HAFTA5.md)
 * [Analog Sinyal - Sayısal Sinyal](HAFTA6.md)
-* Analog İletim
+* [Analog İletim](HAFTA7.md)
 
