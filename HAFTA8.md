@@ -58,7 +58,19 @@ Kaynakların gönderecek verisi olmayabilir. Bu durumda kaynak için atanan zama
 
 ![](senkronbos.png)
 
-##### Asenkron TDM
+**Örnek** _Dört kaynağın her biri saniyede 250 karakter üretmektedir. Eğer her kaynağın veri birimi 1 karakter ve her bir çerçeveye 1 senkronizasyon biti eklenrse aşağıdaki değerleri bulunuz.._
+
+* her bir kaynağın veri hızı ? _250 karakter * 8 bit = 2000 bps_
+* kaynaktaki her bir karakterin süresi ? _1/250 = 4ms_
+* çerçeve hızı? _hat saniyede 250 çerçeve gönderir_
+* her bir çerçevenin süresi? _1/250 = 4ms_
+* her bir tdm çerçevesindeki bit sayısı? _4*8+1 = 33bit_
+* hattın veri hızı? _250*33 = 8250bps_
+
+##### İstatistiksel TDM
+Senkron TDM'de bir çok zaman aralığı kullanılmamaktadır. Bundan dolayı istatistiksel TDM verisi olan girişe zaman aralığı tahsis eder. Bir çerçevedeki zaman aralığı sayısı giriş sayısından daha azdır. Özetle 10 girişiniz var ancak çerçevede 3 tane tutabiliyorsunuz. 
+
+![](istatistikseltdm.png)
 
 
-
+![](istdm.png)
