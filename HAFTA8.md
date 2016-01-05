@@ -26,3 +26,6 @@ Veri olasa bile kanal tahsis edilir. FDM analog işaretlerinin çoğullamasında
 
 ##### Alıcı taraf
 ![](fdm3.png)
+
+#### Dalga Uzunluğu Bölmeli Çoğullama
+WDM ile kısaltılır. fiber optik kablonun yüksek bantgenişliğini kullanmak için tasarlanmıştır. FDM'e benzer fakat daha yüksek frekanslara sahiptir. Çoğu 1550 nm dalga uzunluğu aralığında (~ 194tHz)
