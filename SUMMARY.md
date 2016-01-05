@@ -11,5 +11,5 @@
 * [Yayılı Spektrum](HAFTA9.md)
 * [Hata Sezme ve Düzeltme Teknikleri](HAFTA12.md)
 * [RS-232 ve Asenkron Seri İletim](HAFTA13.md)
-* ADSL (Asymmetric Digital Subscriber Line)
+* [ADSL (Asymmetric Digital Subscriber Line)](HAFTA14.md)
 
