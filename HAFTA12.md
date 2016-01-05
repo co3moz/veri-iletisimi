@@ -31,3 +31,16 @@ Toplamalar tümleyen aritmetiğine göre yapılır. Alıcı gelen sayıları top
 
 ![](checksum.png)
 
+#### Hata Düzeltme Tekniği
+Göndericinin bilgiyi bozulma durumunda tekrar göndermesinin güc olduğu bazı uygulamalarda uygun kodlama ile hatanın alıcıda düzeltilmesine çalışır.
+
+İletim ortamında bozulabilecek bit sayısının üst sınırının bilindiği varsayılır. Bu durum alıcının gönderilen veriyi belirli bir bozulma ölçüsüne kadar düzeltebileceğini ifade eder. Bu tür yöntem iletim yolu çok pahalı ise yada yeniden iletim büyük bir gecikme oluşturuyorsa kullanılır. 
+
+#### Hamming Kodlaması
+Alıcıya ulaşan ve belirli simgeye karşılık düşen ikili kod yolda bir ölçüde bozulmuş olsa bile alıcıda asıl gönderilen kod ede edilebilir. 
+
+Hamming tekniği mesafe özelliği ile beraber kullanılır. Mrneğin mesafe değeri 2 ise, alıcıda 1 bitlik hatalar sezilir ve düzeltilir. 2 bitlik hatalar sadece sezilir. Bu literatürde HD2 olarak isimlendirilir.
+
+![](hamming.png)
+
+
