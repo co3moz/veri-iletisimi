@@ -43,5 +43,30 @@ Adaptif bir teknolojidir. Sistem abone hattının durumuna bağlı olarak uygun 
 ####ADSL Modülasyon Teknikleri
 Modülasyon biginin bir elektronik veya optik taşıyıcı dalgaformu üzerine bindirilmesidir. ADSL sinyalinin modülasyonu için 2 standart vardır bunlar CAP (Carrierless Amplitude and Phase) ve DMT (Discrete Multi-Tone).
 
-QAM her iki modülasyon çeşidinin temelidir. DMT modülasyonu CAP modülasyonundan çok daha karmaşıktır. CAP DSL gerçeklemelerinde ilk kullanılan teknolojidir, fakat şuanda yaygın kullanılan method DMT'dir. Bu modülasyon teknikleri sayısal bir sinyalin nasıl gönderilceğini ve hattan nasıl alınacağını belirler.
+QAM her iki modülasyon çeşidinin temelidir. DMT modülasyonu CAP modülasyonundan çok daha karmaşıktır. CAP DSL gerçeklemelerinde ilk kullanılan teknolojidir, fakat şuanda yaygın kullanılan method DMT'dir. Bu modülasyon teknikleri sayısal bir sinyalin nasıl gönderileceğini ve hattan nasıl alınacağını belirler.
+
+#### CAP (Carrierless Amplitude and Phase)
+Bu modülasyonda downstream ve upstream için tek bir taşıyıcı frekansı kullanılarak modüle edilir ve sonra telefon hattına verilir. Bu taşıyıcı herhangi bir bilgi içermez ve alıcıda yeniden oluşturulabilir.
+
+Taşıyıcı kendisini iletimden önce bsatırır, yani CAP taşıyıcı frekansını filtreleyen bir sinyal üretir. Bundan dolayı bu metoda taşıyıcısız sıfatı kullanılır. Ses upstream ve downstream kanalları kanallar arası girişim olasığını minimuma indirmek için birbirinden ayrılır.
+
+![](cap.png)
+
+#### DMT (Discrete Multi-Tone)
+DMT yaygın kullanılan ve çok taşıyıcılı bir modülasyon methodudur. Bir hat üzerinden yüksek hızda bir veri gönderebilmek amacıyla paralel olarak çalışan N tane göreceli düşük hızlı verici-alıcı (transceiver) kullanma fikri, DMT modülasyon çeşidini ortaya çıkartmıştır. N tane düşük hızlı bilgi akışı, birbirinden farklı N tane alt frekans bandı kullanılarak ayrı tutulmuştur. DMT bu kanalları Ayrı Hızlı Fourier önüşümü olarak bilinen bir sayısal teknik kullanarak oluşturur.
+
+#### ADSL DMT Frekans Spektrumu
+DMT kullanılabilir frekans aralığını her bir 4.3125 kHz'lik 256 kanala ayırması için DSL sinyalini bölümler. ilk 6 taşıyıcı ses ve koruma bandı olarak kullanılır. DMT 32 adet upstream frekans kanalı ve 218 adet downstream frekans kanalına sahiptir.
+
+![](adsldmt.png)
+
+#### DMT Modülasyonunda SNR-Hız ilişkisi
+DMT tekniğinde gelen veri toplanır ve sonra bir çok küçük farklı taşıyıcılar üzerinden dağıtılır. Bu taşıyıcıların her biri QAM modülasyonunun bir çeşidini kullanır (QPSK, QAM, 64 QAM vb)
+
+Modülasyon methodu sinyal kalitesine bğalıdır. Yüksek frekans aralığındaki kanalllar genellikle düşük kaliteye sahiptir. 1mHz'den daha yüksek frekanslar bozulmalardan daha fazla etkilenir. Her bir kanal uygun bir modülasyon methodunu kullanır.
+
+Her bir alt taşıyıcı, sinyal gürültü oranına bağlı olarak kaç bit kullanılacağın karar verir Bu değer maksimum 15bit/hz olabilir.
+
+![](dmtsnr.png)
+
 
