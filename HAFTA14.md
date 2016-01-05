@@ -40,3 +40,8 @@ Adaptif bir teknolojidir. Sistem abone hattının durumuna bağlı olarak uygun 
 * ADSL, ISDN ve ses harici sinyalleri taşıyan diğer kablolarla olan yakınlığı
 * Radyo vericiye yakınlığı
 
+####ADSL Modülasyon Teknikleri
+Modülasyon biginin bir elektronik veya optik taşıyıcı dalgaformu üzerine bindirilmesidir. ADSL sinyalinin modülasyonu için 2 standart vardır bunlar CAP (Carrierless Amplitude and Phase) ve DMT (Discrete Multi-Tone).
+
+QAM her iki modülasyon çeşidinin temelidir. DMT modülasyonu CAP modülasyonundan çok daha karmaşıktır. CAP DSL gerçeklemelerinde ilk kullanılan teknolojidir, fakat şuanda yaygın kullanılan method DMT'dir. Bu modülasyon teknikleri sayısal bir sinyalin nasıl gönderilceğini ve hattan nasıl alınacağını belirler.
+
