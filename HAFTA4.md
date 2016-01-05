@@ -135,4 +135,60 @@ Yeniden iletim gecikmesi, bir bit hatası sonucunda verinin yeniden gonderilmesi
 ** Toplam Gecikme ** : İletim + İşlem + Yayılım + Kuyruk gecikmesi.
 
 
+#### İletim ortamları
+İletim ortamları verici ve alıcı arasındaki fiziksel yolu tanımlar, fiziksel katmanında yer alır ve kontrol edilir. bakır kablo, fiber optik veya hava olabilir. 
+![](iletim-ortami.png)
 
+
+**Kılavuzlanmış ortam**: Kablolu ortama denir.
+**Kılavuzlanmamış ortam**: Kablosuz ortama denir.
+
+![](klavuz.png)
+
+Kılavuzlanmamış ortamda elektromanyetik dalgalar, kılavuzlanmış ortamdada elektrik sinyalleri kullanılarak veri iletilir.
+
+#### Eş eksenli (koaksiyel) kablo ve özellikleri
+Çok farklı uygulamalarda iletim ortamı olarak kullanılabilir.
+* Televizyon
+* Analog ve sayısal telefon ağları (600Mbps sayısal veri)
+* Yerel alan ağları (10Base-2, 10Base-5)
+
+Analog ve sayısal sinyallerin iletimlerinde kullanılabilir ve burulmuş çift kablolardan daha yüksek frekans aralığındaki sinyalleri taşır.
+
+![](koaksiyel.png)
+
+#### Burulmuş Çift (Twisted Pair) Kablo ve özellikleri
+
+Çok yaygın kullanılır.
+* Telefon hatlarında ses ve veri iletişiminde
+* Yerel alan ağ bağlantıları (10Base-T, 100Base-Tx, 1000Base-T)
+
+Diğer iletim ortamlarına göre ucuzdur, çalışması kolaydır ancak kısa mesafelidir.
+
+Analog ve sayısal sinyallerin iletiminde kullanılabilir, mesafe uzatmak için yükselteç yada tekrarlayıcı kullanılır. Gürültü büklüm içerisindeki kabloları aynı oranda etkiler, alıcı iki tel arasındaki farkı değerlendirir.
+
+![](burulmuscift.png)
+
+#### Fiber Optik Kablo ve özellikleri
+
+Daha yüksek iletim hızları sağlar, boyut ve ağırlık diğer kablolu iletim ortamlarına göre daha azdır, zayıflama daha azdır ve daha uzak tekrarlayıcı mesafesi sağlar.
+
+Uygulama alanları
+* Uzun mesafeli iletişim
+* Şehirsel bağlantılar
+* Abone bağlantıları
+* Yerel alan ağları
+
+Diğer ortamlarına göre çok yüksek frekansa sahiptir (`10^14 Hz` - `10^15 Hz`), Cam yada plastikten yapılabilirler.
+
+![](fiberoptik.png)
+
+#### Kablosuz (Kılavuzsuz) iletim ortamları
+
+Atmosfer vaıtasıyla yayımlanan elektromanyetik sinyallerin gönderilmesi ve alınması bir anten vasıtasıyla gerçeklenir. tek yönlü (directional) yada çok yönlü (omnidirectional) sinyal gönderebilir.
+
+**Radyo Dalga Frekans Aralığı** `3kHz` - `1gHz` çok yönlü uygulamalar için uygundur.
+
+**Mikrodalga Frekans Aralığı** `1gHz` - `300gHz` tek yönlü ışınlar mümkündür. Noktadan noktaya iletim için uygundur.
+
+**Infrared Frekans Aralığı** `300gHz` - `400tHz` kısıtlı alan içerisinde noktadan noktaya veya çok nokta uygulamalar için kullanışlıdır.
