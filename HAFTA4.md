@@ -195,3 +195,16 @@ Atmosfer vaıtasıyla yayımlanan elektromanyetik sinyallerin gönderilmesi ve a
 
 ![](frekans-araliklari.png)
 
+#### Kablosuz sinyallerin yayılım modları
+3 farklı şekilde yayılım gerçekleşir.
+* Yer dalgası yayılımı 
+* Gök dalgası yayılımı
+* Görüş açısı yayılımı
+
+![](kablosuz-sinyal-yayilim.png)
+
+#### Kablosuz iletim bozulmaları
+* **Serbest uzay kaybolması**: Zayıflama çeşididir. Sinyalin çok farklı yöne yayılmasından dolayı kaynaklanır.
+* **Atmosferik emme**: Atmosferik buharlaşma gibi nedenlerden kaynaklanır.
+* **Çoklu yol**: Sinyal gönderildikten sonra çevredeki ortamlara çarparak alıcıya birden fazla orjinal yada bozuk sinyal gelmesidir.
+* **Kırılma**: Farklı iletim ortamı içerisinde sinyal hareket ederken, farklı iletim ortamlarından geçtiğinde kırılma gerçekleşir. Işığın yoğunluk değişiminde kırılması gibi sinyalde kırılabilir.
