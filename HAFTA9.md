@@ -28,4 +28,6 @@ FHSS tekniği için 2402-2480 mHz frekans aralığında 1 mHz band genişliğine
 
 Veri çok küçük paketlere bölünerek rastgele değişen 79 mHz genişliğindeki kanallardan seçilir. Sadece önceden anlaşma sağlanan şablon frekansında senkronize olmuş alıcı verici cihazlar bu veriyi alıp gönderebilirler. Bir atlama frekansındaki azami bekleme süresi 400ms'dir.
 
+##### FDM ve FHSS
+![](fhss.png)
 
