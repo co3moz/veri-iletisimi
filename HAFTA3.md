@@ -63,3 +63,16 @@ Baseband iletiminde low-pass (alçak geçiren) bir iletişim kanalı kullanır. 
 ![](base-band.png)
 
 
+```
+Band genişliği = (Max harmonik) * Hız / 2
+```
+
+__Örnek soru__: _Baseband iletiminde 1 kbps hızla veri göndermek için gerekli bant genişliği ne olmalıdır?_
+
+__Çözüm__
+```
+Band genişliği = 1 * 1kbps / 2 = 500Hz
+Eğer 1 ve 3 harmonik kullanılacksa;
+Band genişliği = 3 * 1kbps / 2 = 1.5kHz
+```
+
