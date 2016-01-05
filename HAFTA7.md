@@ -50,5 +50,15 @@ Taşıyıcı sinyalin fazı değiştirilir. Aşağıdaki şekilde 0* ve 180* faz
 
 ![](8psk.png)
 
+#### Quadrature Amplitude Modulation (QAM)
 
+QAM, ADSL ve bazı kablosuz sistemler üzerinde kullanılır. ASK ve PSK'nın bir kombinasyonudur. Aynı taşıyıcı frekansı üzerinde eş zamanlı olarka iki farklı sinyal gönderir.
+
+![](qam.png)
+
+#### Takımyıldızı (Consellation) Diyagramı
+
+Sinyalin genlik ve fazlık değerini göstermek için kullanılır, ASK PSK ve QAM için kullanılır. Her nokta faz ve genlik değerini gösterir.
+
+![](consellation.png)
 
