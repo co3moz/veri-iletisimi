@@ -9,7 +9,7 @@ Dar bant tekniği ile kıt kaynak olan frekans spektrumu verimli kullanılamaz. 
 #### Yayılı Spektrum
 Yayılı Spektrum (Spread Spectrum) ilk olarak kritik güvenli ve gizli askeri haberleşme sistemleri için yaklaşım 50 yıl önce geliştirilmiş bir geniş bant kablosuz RF iletişim tekniğidir.
 
-Yayılı spektrum tekniğinde gönderilecek sinyal bir kod ile birlikte belirli bir bandın tümüne yayılarak yada önceden elirlenmiş bir üzene deavamlı frekans atılarak gönderilir.
+Yayılı spektrum tekniğinde gönderilecek sinyal bir kod ile birlikte belirli bir bandın tümüne yayılarak yada önceden belirlenmiş bir üzene deavamlı frekans atılarak gönderilir.
 
 Şu anda WLAN sistemlerinde yaygın olarak FHSS ve DSSS olmak üzere 2 teknik kullanılmaktadır. Her iki teknik için 2.4 gHz frekans bandında 2400mHz - 2483.5 mHz frekans aralığı ve 83.5 mHz bant genişliği kullanılmaktadır. 
 
