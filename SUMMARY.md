@@ -9,4 +9,5 @@
 * [Analog İletim](HAFTA7.md)
 * [Çoğullama](HAFTA8.md)
 * [Yayılı Spektrum](HAFTA9.md)
+* Hata Sezme ve Düzeltme Teknikleri
 
