@@ -31,3 +31,14 @@ Veri çok küçük paketlere bölünerek rastgele değişen 79 mHz genişliğind
 ##### FDM ve FHSS
 ![](fhss.png)
 
+#### DSSS (Direct Sequence Spread Spectrum)
+Direkt sıralı yayılı spektrum tekniğinde gerekli olan bandın tamamına yayılmış ve kodlanmış bir veri akışı sağlanır. DSSS tekniğinde gönderilecek her bir bit veri için çok miktarda bitlerden oluşan pattern üretilir. Bu bit patternine chip yada chipping code adı verilir.
+
+Chip nekadar uzunsa orjinal verilerin geri alınması okadarda yüksek oranda olur fakat bu daha fazla bant genişliği ihtiyacı oluşturur veya aynı bant genişliği kullanıldığında net veri miktarı azalır.
+
+##### DSSS Örnek
+Wireless LAN için 11 bit Barker dizisi kullanır. Chip koodu bilmeyen kişiler iletişimi anlayamazlar. Düşük güclü geniş bantlı bir gürültü olarak görülür. Binary 1 için kodun kendisi binary 0 için tersi gönderilir.
+
+![](dsss.png)
+
+
