@@ -38,3 +38,27 @@ Alcatel Lab ortamında her biri 39.8 gbps bandgenişliğine sahip 256 kanalla 10
 
 Dense WDM (DWDM) kanalları birbirlerine çok yakın çoğullayarak daha çok kanalı birleştirir.
 
+#### Zaman Bölmeli Çoğullama
+
+TDM yüksek bant genişliğine sahip bir linki birden çok bağlantıya paylaştırır. Bir çok sayısal sinyal zaman boyutunda birbirinden ayırt edilir.
+
+![](tdm.png)
+
+##### Senkron TDM
+
+Zaman aralıkları kaynaklara önceden tahsis edilir ve sabittir. Veri olmasa bile zaman aralıkları tahsis edilir. Zaman aralıkları kaynaklar arasında bir girişim oluşturmayacaktır.
+
+![](senkrontdm.png)
+
+Senkron TDM'de her bir kaynağın verisi birimlere ayrılır. Kaynak verilerinin iletim ortamında kullandıkları zaman aralıklarının toplamı TDM çerçevesini oluşturur. Yani bir TDM çerçevesi tüm kaynakların 1 birim verisinin birleştirilmesinden oluşur.
+
+![](senkrontdmcerceve.png)
+
+Kaynakların gönderecek verisi olmayabilir. Bu durumda kaynak için atanan zaman aralığı boş kalır diğer kaynaklar kullanamaz.
+
+![](senkronbos.png)
+
+##### Asenkron TDM
+
+
+
