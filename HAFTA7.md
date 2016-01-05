@@ -25,3 +25,30 @@ Sinyaller bölümünde ifade edildiği gibi, bir sinüs dalgası genlik frekans 
 
 ![](svasky.png)
 
+#### ASK (Amplitude Shift Keying)
+Genlik değiştirilerek anahtarlama yapılır. Taşıyıcı sinyalin genliği değiştirilir. Genellikle taşıyıcının varlığı ve yokluğu ile ifade edilir. Birçok genlik seviyeside oluşturulabilir.
+
+![](ask.png)
+
+#### FSK (Frekans Shift Keying)
+Taşıyıcı sinyalin frekansı değiştirilir. Değerler iki farklı frekans değeri ile temsil edilir. Binary FSK olarakta isimlendirilir.
+
+![](fsk.png)
+
+#### PSK (Phase Shift Keying)
+Taşıyıcı sinyalin fazı değiştirilir. Aşağıdaki şekilde 0* ve 180* faz farklı iki sinyal kullanılır. Bundan dolayı Binary PSK'da  denir. PSK sadece bir tane taşıyıcı frekans gerektirir. FSK seviye sayısı kadar gerektirir.
+
+![](psk.png)
+
+#### 4-PSK
+2 bitle 4 değer temsil edilir. Bundan dolayı 4-PSK olarak adlandırılır.
+
+![](4psk.png)
+
+#### 8-PSK
+3 bitle 8 değer temsil edilir bundan dolayı 8-PSK olarak adlandırılır.
+
+![](8psk.png)
+
+
+
