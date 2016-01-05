@@ -40,7 +40,11 @@ Darbe kod modülasyonunun ikinci aşaması Sayısallaştırma (Kuantalama)'dır,
 
 #### Kodlama (Encoding)
 Sayısal sinyal, bir PCM darbesinin genliğini tanımlayan n bit uzunluğunda sayısal veri bloğuna kodlanır.
+
 ![](kodlama.png)
 
+#### İletişim Teknikleri
+Sayısal veri bir iletim ortamı üzerinden ya seri yada paralel modda aktarılabilir.
 
+![](iletisim-teknikleri.png)
 
