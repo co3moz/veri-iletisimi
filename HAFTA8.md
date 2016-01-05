@@ -28,4 +28,13 @@ Veri olasa bile kanal tahsis edilir. FDM analog işaretlerinin çoğullamasında
 ![](fdm3.png)
 
 #### Dalga Uzunluğu Bölmeli Çoğullama
-WDM ile kısaltılır. fiber optik kablonun yüksek bantgenişliğini kullanmak için tasarlanmıştır. FDM'e benzer fakat daha yüksek frekanslara sahiptir. Çoğu 1550 nm dalga uzunluğu aralığında (~ 194tHz)
+WDM ile kısaltılır. fiber optik kablonun yüksek bantgenişliğini kullanmak için tasarlanmıştır. FDM'e benzer fakat daha yüksek frekanslara sahiptir. Çoğu 1550 nm dalga uzunluğu aralığında (yaklaşık 194tHz)
+
+WDM optik sinyalleri birleştiren bir multiplexing tekniğidir. Çoğullayıcı kaynakları tek bir fiber üzerinden iletim için birleştirir. Birden fazla ışık hüzmesinin farklı frekanslarda aynı fiber üzerinden iletilmesi tekniğidir. 
+
+Işığın her bir rengi ayrı veri kanalı üzerinden taşınır. Bir çok kaynaktan farklı frekanslarda lazer ışını üretilir. Şu anda 10 gbps band genişliğine sahip 160 kanallık ticari ürünler bulunmaktadır.
+
+Alcatel Lab ortamında her biri 39.8 gbps bandgenişliğine sahip 256 kanalla 10.1 tbpslik iletimi 100kmlik bir mesafede gerçekleştirmiştir.
+
+Dense WDM (DWDM) kanalları birbirlerine çok yakın çoğullayarak daha çok kanalı birleştirir.
+
