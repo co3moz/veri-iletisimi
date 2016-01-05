@@ -24,7 +24,20 @@ RS-232 iki cihaz arasında bilgi transferine yönelik tasarlanmıştır. Mesafe 
 * İki bilgisayar arası basit bir link için
 
 
+![](rs232konnektor.png)
+
 ![](rs232.png)
 
-**Loopback (Döngü sınama)** Bu döngü sınama fişi haberleşme programları yazarken çok kullanışlı olabilir. Seri porttan gönderilen bir verinin aynı porttan hemen alınmasını sağlamak için TD ve RD çıkışları birbirine bağlanmıştır. Eğer bu fişi seri porta takıp Terminal programını yükerseniz herhangi birşey yazdığınızda hemen ekranda görüntülenir.
+**Loopback (Döngü sınama)** Bu döngü sınama fişi haberleşme programları yazarken çok kullanışlı olabilir. Seri porttan gönderilen bir verinin aynı porttan hemen alınmasını sağlamak için TD ve RD çıkışları birbirine bağlanmıştır. Eğer bu fişi seri porta takıp Terminal programını yükerseniz herhangi bir şey yazdığınızda hemen ekranda görüntülenir.
+
+#### RS-232 ile Asenkron seri iletim
+Gönderici ve alıcının birbirinden bağımsız hareket etikleri bir iletişim şeklidir. Gönderilecek bilgi karakter adı verilen bloklara ayrılır. Her bir karakter başla bitiyle başladığından alıcı karakterin başını kolayca yakalar.
+
+* Karakterde bit sayısı
+* P Eşlik biti (Parity)
+* D Dur biti
+* Bit hızı
+
+![](rs232asenkron.png)
+
 
