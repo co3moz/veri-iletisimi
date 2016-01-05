@@ -55,3 +55,13 @@ Tek seviyeli bir değere sahiptir, bit 1 pozitif gerili ve bit 0, 0 V ile tanım
 
 
 ![](manchester.png)
+
+#### AMI ve Pseudotenary (Bipolar)
+**AMI (Alternate Mark Invision) kodlama:** 0 için 0 Volt seviyesi kullanılırken, 1 çin ise sırayla pozitif ve negatif gerilim kullanılır. 
+
+**Pseudotenary kodlama** 1 için 0 volt seviyesi kullanılırken, 0 için ise sırayla pozitif ve negatif gerilim kullanılır. AMI'nin tersidir.
+
+![](ami.png)
+
+#### Multilevel Kodlama yöntemleri
+2B1Q, 8B6T, 4D-PAM5 yöntemleri multilevel kodlama yöntemleri içerisinde yer alır. Bu şekildeki kodlama **mBnL** olarak isimlendirilir. ilk ikisi (**mB**) veriyi, son ikisi (**nL**) sinyali gösterir. **m** veri biti sayısını (ikili verinin uzunluğunu) **n** de sinyal sayısını (sinyal uzunluğunu) gösterir. İkili veri sadece 0 ve 1 değerine sahip olacağından m adet veriyi 2^m farklı sinyalle gösterebiliriz. İsimlendirmedeki B'de ikili veriyi tanımlar. L ise seviyeyi tanımlar. L=2 ise **B**, L=3 ise **T** L=4 ise **Q** kullanılır
