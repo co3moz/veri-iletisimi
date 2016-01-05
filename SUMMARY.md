@@ -7,4 +7,5 @@
 * [Sayısal Veri - Sayısal Sinyal](HAFTA5.md)
 * [Analog Sinyal - Sayısal Sinyal](HAFTA6.md)
 * [Analog İletim](HAFTA7.md)
+* Çoğullama
 
