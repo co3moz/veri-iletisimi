@@ -39,7 +39,7 @@ Tek seviyeli bir değere sahiptir, bit 1 pozitif gerili ve bit 0, 0 V ile tanım
 #### NRZ Kodlama Teknikleri (Polar-Seviye Tabanlı)
 **NRZ-L (level) kodlama tekniği:** 1 değerinde düşük voltaj, 0 değerinde yüksek voltaj kullanılır. Bir bit bilginin gönderiliğinde voltaj belirli seviyede tutulacaktır. Kısa bağlantılar için kullanılır _örneğin RS-232_
 
-**NRZ-I (invert) kodlama tekniği:** 1 değerinde voltaj seviyesi değişir, 0 değerinde voltaj seviyesini değiştirme. Bir bit bilginin gönderiliğinde voltaj belirli bir seviyede tutulur. Bazı ISDN kanallarında kullanılır.
+**NRZ-I (invert) kodlama tekniği:** 1 değerinde voltaj seviyesi değişir, 0 değerinde voltaj seviyesini değiştirme. Bir bit bilginin gönderildiğinde voltaj belirli bir seviyede tutulur. Bazı ISDN kanallarında kullanılır.
 
 ![](nrz.png)
 
