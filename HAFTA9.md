@@ -2,7 +2,7 @@ Yayılı Spektrum
 ------
 
 #### Dar Band Tekniği
-RF sinyallerinin mümkün olan en dar frekans arlaığında gönderimesi ve alınması esasına dayanır. Veri hızı düşük fakat iletişim mesafesi uzundur. Sistem enterferansa duyarlıdır. Her kullanıcının farklı frekans kanalı kullanması gerekir. Aksi durumda enterferans oluşur ve iletişimde bozulma veya kesilme meydana gelir. 
+RF sinyallerinin mümkün olan en dar frekans aralığında gönderimesi ve alınması esasına dayanır. Veri hızı düşük fakat iletişim mesafesi uzundur. Sistem enterferansa duyarlıdır. Her kullanıcının farklı frekans kanalı kullanması gerekir. Aksi durumda enterferans oluşur ve iletişimde bozulma veya kesilme meydana gelir. 
 
 Dar bant tekniği ile kıt kaynak olan frekans spektrumu verimli kullanılamaz. WLAN sistemlerinde kullanılmamaktadır. TV, AM/FM Radyo
 
