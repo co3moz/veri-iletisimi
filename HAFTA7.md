@@ -62,3 +62,11 @@ Sinyalin genlik ve fazlık değerini göstermek için kullanılır, ASK PSK ve Q
 
 ![](consellation.png)
 
+#### 8-QAM 
+1 sinyal -> 3 bit
+
+![](8qam.png)
+
+#### 16-QAM 
+
+![](16qam.png)
