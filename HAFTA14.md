@@ -89,3 +89,20 @@ ADSL2 hiçbir iletişim yokken uyku/güç koruma moduna girebilir ve veri iletim
 
 #### ADSL Erişimi ve Bağlantı Mimarisi
 ![](adsl-erisim.png)
+
+#### ADSL Bağlantı Mimarisi Bileşenleri
+Subscriber: PC'e xDSL modeme ve bridge/router'a sahip olan abone
+
+Netwrk Access Provider: Tüm aboneleri yönetir ve kullanıcıları farklı servis sağlayıcınalarına bağlar
+
+Network Service Provider: Kullanıcıları internet'e çıkartmakla sorumludur. Aynı zamanda katma değerli servislerde sunabilir. 
+
+![](adsl-baglanti.png)
+
+#### ADSL Kapsülleme (Encapsulation)
+Çoğu DSL ağı veri bağı katmak protokolü olarak ATM kullanır. Basit tanımlamayla bir DSLAM, DSL arayüz kartına sahip bir anahtar cihazıdır. DSLAM, ADSL bağlantılarını sonlandırır ve sonra trafiği ATM ağı üzerinden bir toplayıcı yönlentiriciye göndermek için anahtarlama işlemi yapar. Toplayıcı yönlendirici katman 3 cihazdır ve aboneden gelen IP bağlantılarını sonlandırır. Bir ATM ve DSL bağlantısı üzerinden IP paketlerini kapsüllemek için üç yöntem bulunur ;
+* RFC 1483/2684 Bridged
+* Point to Point Protocol over ATM (PPPoA) PPP çerçevelerini ATM AAL5 içerisinde kapsüllemek için kullanılan bir ağ protokolüdür.
+* Point to Point Protocol over Ethernet (PPPoE) PPP çerçevelerini Ethernet çerçeveleri içerisinde kapsüllemek için kullanılan bir ağ protokolüdür.
+
+Hayırlı uğurlu olsun bitirdin
