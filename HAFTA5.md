@@ -25,7 +25,7 @@ Modülasyon tekniklerinde amaç düşük baud hızı üzerinden yüksek bit hız
 ```
 r bir sinyal ile taşınan bit sayısını gösteriyorsa.
 Nyquist bit hızı = 2Br
-Baud hızı = N / 2r
+Baud hızı = N / 2r (N bit hızı)
 ```
 
 #### Hat Kodlama Teknikleri
@@ -43,3 +43,15 @@ Tek seviyeli bir değere sahiptir, bit 1 pozitif gerili ve bit 0, 0 V ile tanım
 
 ![](nrz.png)
 
+#### RZ (Return to Zero) 
+Üç seviye kullanılır (+v, -v, 0). Sinyal bitinin orta seviyesinde 0'a döner. Bir bit için daha sinyal değişimi gerekir. DC bileşen problemi yoktur.
+![](rz.png)
+
+
+#### Manchester ve Farksal Manchester Kodlama
+**Manchester Kodlama Tekniği** 0 değerinde düşen kenar, 1 değerinde yükselen kenar.
+
+**Farksal Manchester Kodlama Tekniği**: 0 değeri bit süresinin başında düzey değişimi gösterirken, 1 değeri için bit süresinin başında düzey aynı kalır. Bit süresinin ortasında her iki bit değeri içinde düzey değişimi olur.
+
+
+![](manchester.png)
