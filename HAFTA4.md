@@ -192,3 +192,6 @@ Atmosfer vaıtasıyla yayımlanan elektromanyetik sinyallerin gönderilmesi ve a
 **Mikrodalga Frekans Aralığı** `1gHz` - `300gHz` tek yönlü ışınlar mümkündür. Noktadan noktaya iletim için uygundur.
 
 **Infrared Frekans Aralığı** `300gHz` - `400tHz` kısıtlı alan içerisinde noktadan noktaya veya çok nokta uygulamalar için kullanışlıdır.
+
+![](frekans-araliklari.png)
+
