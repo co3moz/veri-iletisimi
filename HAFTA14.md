@@ -69,4 +69,23 @@ Her bir alt taşıyıcı, sinyal gürültü oranına bağlı olarak kaç bit kul
 
 ![](dmtsnr.png)
 
+##### DMT Özet
 
+![](dmtsum.png)
+
+#### ADSL Standartları
+İletim sırasında kullanılacak frekans bantları ITU-T, ANSI, ETSI gibi kuruluşlar tarafından belirlenir.
+
+![](adslstandart.png)
+
+#### ADSL2
+ADSL 2/2+, ADSL üzerinden yapılan geliştirmelerdir ve daha yüksek download destekler. ADSL2, ADSL ile aynı bandgenişliğini kullanır fakat download yönünde daha yüksek hız için veri sıkıştırma teknikleri kullanır. ADSL2, Ek J ile upstream frekans bandının son değerini 138kHz'den 276 kHz'e taşımıştır bundan dolayı 3.5 mbps hızlara kadar upstream hızı elde edilebilir.
+
+ADSL2 harici girişimlerden dolayı SNR değişse bile iletişim kesilmeden hattı farklı hızlarda yeniden sekronize edebilir. Bu özellik ADSL'de mevcut değildir.
+
+ADSL2 hiçbir iletişim yokken uyku/güç koruma moduna girebilir ve veri iletimi başladığında otomatik olarak aktarım moduna geri dönebilir.
+
+![](adsl2.png)
+
+#### ADSL Erişimi ve Bağlantı Mimarisi
+![](adsl-erisim.png)
