@@ -1,0 +1,2 @@
+# Sayısal Veri - Sayısal Sinyal
+
