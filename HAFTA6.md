@@ -48,3 +48,29 @@ Sayısal veri bir iletim ortamı üzerinden ya seri yada paralel modda aktarıla
 
 ![](iletisim-teknikleri.png)
 
+#### Seri İletişim Tekniği
+Gönderilecek bilginin tek bir iletim yolu üzerinden sıra ile aktarıldığı iletim şeklidir. Sayısal formattaki bilginin aktarım hızı "baud" birimiyle ölçülür. PC'lerdeki seri portlar, seri iletişim tekniği kullanırlar(COM portlar RS232). Seri iletişim kendi arasında Asenkron, Senkron, Isenkron olmak üzere 3'e ayrılır.
+
+![](serial.png)
+
+##### Asenkron Seri İletişim Tekniği
+Gönderici ve alıcının birbirinden bağımsız hareket ettikleri bir iletişim şeklidir. Gönderilecek bilgi, "karakter" adı verilen bloklara ayrılır. Sonra iletim ortamına seri olarak verilir. Bir blokta genellikle 7 veya 8 bit bulunur. Her veri bloğu başla bitiyle başlar, ve dur bitiyle sonlanır. Alıcı bu bitler vasıtasıyla gelen veriyi anlar/yakalar.
+
+![](asenkron.png)
+
+##### Senkron Seri İletişim Tekniği
+Gönderici, saat işaretini bilgi ile modüle ederek alıcıya gönderir. Alıcı, vericinin gönderdiği işaret dizisini kullanarak (uygun devreler yardımı ile) vericinin frekansı ile eşit frekanslı bir senkronizasyon işareti elde eder.
+
+Senkronizasyon işlemi için modülasyon gerektirmeyen ikinci bir yol, verici ve alıcı arasında bulunan bir hat üzerinden saat işaretinin gönderilmesidir.
+
+Uzunluğu kullanılan protokole göre değişen bilgi bit katarına ön ve son ekler konularak alıcının bilginin başlangıç ve sonunu belirlemesi sağlanır. Eklenen ön ve son eklerin uzunlukları, kullanılan protokole bağlı olarak belirlenir. 
+
+![](senkron.png)
+
+##### Isenkron Seri İletişim Tekniği
+Senkron iletişimin bir çeşidi denebilir. Isenkron bilgi iletiminde uç sistemlerin birbirleri ile olan haberleşme gereksinimi periyodik olarak karşılanır. Sabit hızda verinin iletimi sağlanır.
+
+**Örneğin** _her 125 mikro saniyede 193 bit aktarılacak bir gereksinim belirtilir ve bu garanti olarak sağlanır_
+
+Bu tür iletişim özellikle gerçek zamanlı ses video aktarım uygulamalarında yada kritik veri transferi gerektiren endüstiriyel otomasyon/kontrol sistemlerinde kullanılır.
+
