@@ -22,3 +22,9 @@ RS-232 iki cihaz arasında bilgi transferine yönelik tasarlanmıştır. Mesafe 
 * Test cihazlarında
 * Kontrol devrelerinde
 * İki bilgisayar arası basit bir link için
+
+
+![](rs232.png)
+
+**Loopback (Döngü sınama)** Bu döngü sınama fişi haberleşme programları yazarken çok kullanışlı olabilir. Seri porttan gönderilen bir verinin aynı porttan hemen alınmasını sağlamak için TD ve RD çıkışları birbirine bağlanmıştır. Eğer bu fişi seri porta takıp Terminal programını yükerseniz herhangi birşey yazdığınızda hemen ekranda görüntülenir.
+
