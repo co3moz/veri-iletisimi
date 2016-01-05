@@ -68,5 +68,6 @@ Sinyalin genlik ve fazlık değerini göstermek için kullanılır, ASK PSK ve Q
 ![](8qam.png)
 
 #### 16-QAM 
+1 sinyal -> 4 bit
 
 ![](16qam.png)
