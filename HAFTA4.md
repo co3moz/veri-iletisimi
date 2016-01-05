@@ -63,9 +63,32 @@ Gürültüsüz ve hatadan yoksun bir kanal için tanımlanır. Bandgenişliği B
 ```
 Nyquist bit hızı = 2B(bps)
 ```
-Çoklu voltaj seviyesine veya sinyal seviye sayısına (L) sahip sinyal için Nyquest bit hızı
+Çoklu voltaj seviyesine veya sinyal seviye sayısına (L) sahip sinyal için Nyquist bit hızı
 ```
 Nyquist bit hızı = 2Blog2L(bps)
 ```
 
 **Örneğin** _L=8 ve 3000Hz bandgenişliği için Nyquest bit hızı = 18kbps olur._
+
+#### Shannon Kapasite Formülü
+Bit hızı gürültü ve hata hızı arasındaki iliki dikkate alınırsa, bir hızı nekadar artarsa her bir bitin süreside okadar azalır, bu yüzden bir gürültü patlaması durumunda daha fazla bit eklenir.
+Verilen bir gürültü seviyesi için yüksek bit hızı daha yüksek hata oranı anlamına gelir.
+
+```
+Shannon kapasite = C = B log2(1+SNR) (bps)
+```
+** Örneğin** _Bandgenişliği = 3000Hz ve S/N=35dB olan bir telefon hattı için maksimum veri hızı ?_
+
+**Çözüm**
+```
+SNR = 35dB verimiş bunu bir decimal sayıya çevirmeliyiz. 
+35db = 10log(k) 
+log(k) = 3.5
+k= 10^3.5 (hesap makinesi yardımıyla)
+k= 3162 (yaklaşık bulunur)
+Shannon kapasite formülü kullanılır
+C = 3000Hz * log2(1+3162)
+C = 3000Hz * log2(3163)
+C = 3000Hz * 11.6270
+C = 34.881kbps
+```
