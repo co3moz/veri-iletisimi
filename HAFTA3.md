@@ -18,4 +18,48 @@ Sinyallerin yayılması ve işlenmesi vasıtasıyla verinin iletişimi
 * Analog İletim: Analog veya Sayısal verinin analog sinyal vasıtasıyla taşınmasıdır.
 * Sayısal İletim: Analog veya Sayısal verinin sayısal sinyal vasıtasıyla taşınmasıdır.
 
-$$test+1 $$
+#### Zaman ve Frekans Düzlemi
+
+Zaman düzlemi sinyalin zamana göre değişimini gösterir. Frekans düzlemide frekans ve genlik arasındaki ilişkiyi gösterir.
+
+![](frekans-zaman-duzlem.png)
+
+#### Frekans Düzlemi Kavramları
+
+**Temel Frekans** Bir sinyalin tüm frekans bileşenleri bir frekansın tamsayı çarpanı ise, bu frekans temel frekans olarak isimlendirilir.
+
+**Spektrum** Sinyali içeren frekans aralığı
+
+**Bandgenişliği** Spektrum genişliği
+
+**Efektif Bandgenişliği** Hemen hemen bandgenişliği ile aynıdır ve sinyal enerjisinin çoğunu içeren darandlı frekans aralığını tanımlar.
+
+**DC Bileşeni** Sıfır frekans bileşeni.
+
+![](frekans-duzlemi-kavramlari.png)
+
+#### Frekans Spektrumu ve bandgenişliği
+
+Bir sinyalin frekans spektrumu, sinyalin tüm frekans bileşenlerinin toplamıdır.
+
+Bir sinyalin bandgenişliği, Herhangi bir iletim sistemi sınırlı bir frekans bandına sahiptir bu durum taşınabilen veri hızının sınırını gösterir, bir iletişim kanalı içerisinde mevcut frekans spektrumun genişliği de denebilir.
+
+Örnek bandgenişlikleri;
+* Konuşma bandgenişliği 100Hz - 7kHz
+* Telefon bandgenişliği 300Hz - 3.4kHz
+* Video bandgenişliği 4mHz
+
+![](spektrum-bandgenisligi.png)
+
+
+#### Sayısal Sinyal İletimi (Baseband/broadband)
+
+Sayısal sinyal iletimi baseband veya broadband modülasyon tekniklerinden biri kullanılarak yapılabilir.
+
+Baseband iletiminde sayısal sinyal analog sinyale çevrilmeden gönderilir. Bu işlem, baseband modülasyonu yada hat kodlama olarak tanımlanır.
+
+Baseband iletiminde low-pass (alçak geçiren) bir iletişim kanalı kullanır. İletim ortamı sadece bir kanal oluşturur.
+
+![](base-band.png)
+
+
