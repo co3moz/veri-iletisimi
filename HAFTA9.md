@@ -1,0 +1,2 @@
+# Yayılı Spektrum
+
