@@ -16,3 +16,18 @@ Parity üretimi
 
 #### Çevrimli Fazlalık Sınaması (CRC)
 Gönderilen veri bitleriden hesaplanan bir sınama kodu, gönderilecek veri bitlerinin sonuna eklenir. CRC kodunu hesaplamak için donanım desteği veren iletişim yongaları mevcuttur. Üreteç fonksiyonu CRC yönteminde anahtar kelimedir. Ethernet Token Ring ATM gibi protokoller bu tekniği kullanırlar. 
+
+![](crc1.png)
+
+![](crc2.png)
+
+![](crc3.png)
+
+#### Kontrol Toplamı (Checksum)
+
+Checksum tcp/ip yığınındaki protokollerde başlık yada başlıkla beraber verinin iletiminde bir hatanın olup olmadığını anlamada kullanılır. Gönderilecek veri bitlerinin toplamı alınır ve sonra bulunan toplam veri bitlerine eklenerek öyle gönderilir.
+
+Toplamalar tümleyen aritmetiğine göre yapılır. Alıcı gelen sayıları toplar ve sonra tümleyenini alır, sonuç sıfırsa hata yoktur sıfırdan farklıysa yeniden iletim yapılır.
+
+![](checksum.png)
+
