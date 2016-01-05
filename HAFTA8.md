@@ -17,7 +17,7 @@
 
 Her sinyalin iletimi için farklı bir frekans bandı kullanılarak sinyallerin birbirine karışması önlenirken (koruma bandları ile birlikte) aynı zamanda birden fazla analog sinyalin birleştirilerek aynı kanaldan iletilmeside mümkün kılınmaktadır.
 
-Veri olasa bile kanal tahsis edilir. FDM analog işaretlerinin çoğullamasında kulllanılır. Örneğin Radyo ve TV yayınları 
+Veri olmasa bile kanal tahsis edilir. FDM analog işaretlerinin çoğullamasında kulllanılır. Örneğin Radyo ve TV yayınları 
 
 ![](fdm.png)
 
