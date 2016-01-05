@@ -100,4 +100,39 @@ Gecikme (latency) verinin kaynağından hedefine gönderilmesi için haycanan s�
 
 Gecikme bir çok faktöre (trafik, hatalar..) bağlı olduğu için zamanla değişebilir.
 
+![](gecikmeler.png)
+
+
 Bazı gecikme ölçütleri vardır bunlar; maksimum gecikme, ortalama gecikme, gecikme değişimi..
+
+Ağlarda gecikme çeşitleri;
+* iletim gecikmesi
+* yayılım gecikmesi
+* işlem gecikmesi
+* kuyruk gecikmesi
+* yeniden iletim gecikmesi
+
+iletim ve yayılım gecikmeleri fiziksel ortama ve iletim tekniğine bağlıdır. yayılım gecikmesi iletim ortamının bir başından diğer başına kadar yayılması geçen zamandır. Özetle elektron hareketinden kaynaklanır. Genellikle sabittir.
+
+```
+Yayılım gecikmesi = Hattın fiziksel uzunluğu(m) / yayılım hızı (m/sn)
+
+Yayılım hızı uzayda ışık hızıyla (3*10^8 m/sn), burulmuş çift veya koaksiyel kablolarda ortalama 2*10^8 m/sn'dir.
+```
+
+İletim gecikmesi çerçevenin hattın bit hızında gönderilmesi için harcanan zamandır. Paket boyutuna bağlı olarak değişebilir.
+
+```
+İletim gecikmesi = İletilecek bitlerin sayısı(N) / hattın hızı(bps)
+```
+
+İşlem gecikmesi, gönderici ve alıcı cihazın kendi içerisindeki yığın gecikmesi olarak düşünülebilir. yani cihazın verileri işleme süresidir.
+
+Kuyruk gecikmesi, bir switch yada yönlendirici gibi cihazlardan işleyebileceği hızdan daha yüksek hızda bir veri gönderilirse yaşanabilir.
+
+Yeniden iletim gecikmesi, bir bit hatası sonucunda verinin yeniden gonderilmesi nedeniyle olusabilir ve tum gecikmeleri yeniden icerebilir. Benzer şekilde süre aşımı gerçekleşirse tüm gecikmeleri yeniden içerebilir.
+
+** Toplam Gecikme ** : İletim + İşlem + Yayılım + Kuyruk gecikmesi.
+
+
+
