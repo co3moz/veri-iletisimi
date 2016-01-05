@@ -74,3 +74,11 @@ Senkron iletişimin bir çeşidi denebilir. Isenkron bilgi iletiminde uç sistem
 
 Bu tür iletişim özellikle gerçek zamanlı ses video aktarım uygulamalarında yada kritik veri transferi gerektiren endüstiriyel otomasyon/kontrol sistemlerinde kullanılır.
 
+#### Paralel İletişim Tekniği
+Gönderilecek bilginin her bir bitinin ayrı bir iletim yolundan aktarıldığı iletişim şeklidir. Aktarma anında vericinin yola bilgi bitleri çıkardığını belirtmek için vericiden alıcıya veri hazır ve alıcıdan vericiye veri alabileceğini belirten istek belirtme hatlarına gereksinim vardır.
+
+Paralel iletişim maaliyetlidir ve genellikle birbirine yakın cihazlar arasında kullanılır. PC'lerdeki paralel portlar, paralel iletişim tekniği kullanırlar. 
+
+![](paralel.png)
+
+
