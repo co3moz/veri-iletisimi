@@ -32,7 +32,7 @@ Zaman düzlemi sinyalin zamana göre değişimini gösterir. Frekans düzlemide 
 
 **Bandgenişliği** Spektrum genişliği
 
-**Efektif Bandgenişliği** Hemen hemen bandgenişliği ile aynıdır ve sinyal enerjisinin çoğunu içeren darandlı frekans aralığını tanımlar.
+**Efektif Bandgenişliği** Hemen hemen bandgenişliği ile aynıdır ve sinyal enerjisinin çoğunu içeren darbandlı frekans aralığını tanımlar.
 
 **DC Bileşeni** Sıfır frekans bileşeni.
 
