@@ -92,3 +92,12 @@ C = 3000Hz * log2(3163)
 C = 3000Hz * 11.6270
 C = 34.881kbps
 ```
+
+
+#### Ağlarda gecikme / performans
+Bant genişliği, ağ performansını belirleyen ölçütlerden birisidir. Throughput bir bağlantının gerçek bps değeridir.
+Gecikme (latency) verinin kaynağından hedefine gönderilmesi için haycanan sürelerin toplamıdır. Birçok uygulama için anahtar bir gereksinimdir ve ağın performansını değerlendirmek için kullanılan temel bir başarım ölçütüdür. (cs de lolde ping oluyorya o işte :D)
+
+Gecikme bir çok faktöre (trafik, hatalar..) bağlı olduğu için zamanla değişebilir.
+
+Bazı gecikme ölçütleri vardır bunlar; maksimum gecikme, ortalama gecikme, gecikme değişimi..
