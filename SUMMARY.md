@@ -8,5 +8,5 @@
 * [Analog Sinyal - Sayısal Sinyal](HAFTA6.md)
 * [Analog İletim](HAFTA7.md)
 * [Çoğullama](HAFTA8.md)
-* Yayılı Spektrum
+* [Yayılı Spektrum](HAFTA9.md)
 
