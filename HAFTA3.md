@@ -54,6 +54,7 @@ Bir sinyalin bandgenişliği, Herhangi bir iletim sistemi sınırlı bir frekans
 
 #### Sayısal Sinyal İletimi (Baseband/broadband)
 
+##### Baseband
 Sayısal sinyal iletimi baseband veya broadband modülasyon tekniklerinden biri kullanılarak yapılabilir.
 
 Baseband iletiminde sayısal sinyal analog sinyale çevrilmeden gönderilir. Bu işlem, baseband modülasyonu yada hat kodlama olarak tanımlanır.
@@ -72,7 +73,18 @@ __Örnek soru__: _Baseband iletiminde 1 kbps hızla veri göndermek için gerekl
 __Çözüm__
 ```
 Band genişliği = 1 * 1kbps / 2 = 500Hz
-Eğer 1 ve 3 harmonik kullanılacksa;
+Eğer 1 ve 3 harmonik kullanılacaksa;
 Band genişliği = 3 * 1kbps / 2 = 1.5kHz
 ```
 
+##### Broadband
+
+Broadband iletiminde sayısal sinyal modüle edilerek analog sinyale çevrilir. Bu modülasyon (dönüşüm) bant geçiren (passband) bit kanal oluşturmayı sağlar.
+
+Günümüzde kullandığımız telefon sistemleri (GSM..) Tv yayınları ve geniş alan ağ teknolojileri (Frame Relay, ATM) broadband iletime örnektir.
+
+Broadband iletimde sayısal sinyali analog sinyale dönüştürmek için modem ( modulator/demodulator ) kullanılır.
+
+![](broadband.png)
+
+![](broadband2.png)
