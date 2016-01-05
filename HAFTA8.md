@@ -12,3 +12,17 @@
 * TDM zaman bölmeli çoğullama
 * CDM kod bölmeli çoğullama
 
+#### Frekans Bölmeli Çoğullama
+İletişim kanallarında frekans paylaşımını öngörmektedir. Her  bir sinyal farklı bir taşıyıcı frekansı ile modüle edilir. 
+
+Her sinyalin iletimi için farklı bir frekans bandı kullanılarak sinyallerin birbirine karışması önlenirken (koruma bandları ile birlikte) aynı zamanda birden fazla analog sinyalin birleştirilerek aynı kanaldan iletilmeside mümkün kılınmaktadır.
+
+Veri olasa bile kanal tahsis edilir. FDM analog işaretlerinin çoğullamasında kulllanılır. Örneğin Radyo ve TV yayınları 
+
+![](fdm.png)
+
+##### Verici taraf
+![](fdm2.png)
+
+##### Alıcı taraf
+![](fdm3.png)
