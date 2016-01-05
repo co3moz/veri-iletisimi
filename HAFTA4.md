@@ -132,11 +132,12 @@ Kuyruk gecikmesi, bir switch yada yönlendirici gibi cihazlardan işleyebileceğ
 
 Yeniden iletim gecikmesi, bir bit hatası sonucunda verinin yeniden gonderilmesi nedeniyle olusabilir ve tum gecikmeleri yeniden icerebilir. Benzer şekilde süre aşımı gerçekleşirse tüm gecikmeleri yeniden içerebilir.
 
-** Toplam Gecikme ** : İletim + İşlem + Yayılım + Kuyruk gecikmesi.
+**Toplam Gecikme** : İletim + İşlem + Yayılım + Kuyruk gecikmesi.
 
 
 #### İletim ortamları
 İletim ortamları verici ve alıcı arasındaki fiziksel yolu tanımlar, fiziksel katmanında yer alır ve kontrol edilir. bakır kablo, fiber optik veya hava olabilir. 
+
 ![](iletim-ortami.png)
 
 
@@ -149,6 +150,7 @@ Kılavuzlanmamış ortamda elektromanyetik dalgalar, kılavuzlanmış ortamdada 
 
 #### Eş eksenli (koaksiyel) kablo ve özellikleri
 Çok farklı uygulamalarda iletim ortamı olarak kullanılabilir.
+
 * Televizyon
 * Analog ve sayısal telefon ağları (600Mbps sayısal veri)
 * Yerel alan ağları (10Base-2, 10Base-5)
@@ -160,6 +162,7 @@ Analog ve sayısal sinyallerin iletimlerinde kullanılabilir ve burulmuş çift 
 #### Burulmuş Çift (Twisted Pair) Kablo ve özellikleri
 
 Çok yaygın kullanılır.
+
 * Telefon hatlarında ses ve veri iletişiminde
 * Yerel alan ağ bağlantıları (10Base-T, 100Base-Tx, 1000Base-T)
 
