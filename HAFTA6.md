@@ -13,7 +13,7 @@ En yaygın kullanılan analog sinyal - sayısal veri dönüşüm yöntemidir. Ay
 
 * Örnekleme
 * Kuantalama
-* Encoding
+* Kodlama
 
 #### Örnekleme (Sampling)
 Darbe kod modülasyonun ilk aşamasıdır. Her T aralığında bir örnek alınır ve alınan bu örneğin sayısal bir değeri bulunur. 
@@ -29,3 +29,18 @@ Eğer bir sinyal, en yüksek sinyal frekansının iki katından daha yüksek bir
 **Örnek** _İnsan sesini sayısallaştırmak isteyelim, her örneğin 8 bitle örneklendiğini varsayarsak bit hızı nedir?_
 
 **Çözüm** _İnsan sesi normal olarak 0'dan 4000Hz'e kadar frekansları içerir. (telefon hatları için) Örnekleme hızı 4000 * 2 = 8000 örnek/sn, bit hızı = örnekleme hızı * her örnek başına düşen bit sayısı = 8000 * 8 = 64000 bps = 64kpbs_
+
+#### Kuantalama (Quantizing)
+Darbe kod modülasyonunun ikinci aşaması Sayısallaştırma (Kuantalama)'dır, her bir analog örneğe ikili bir oda tahsis edilir. Analog örneker darbe genlik modülasyonu (PAM) örnekleri olarak elde edilir.
+
+![](pam.png)
+
+![](kuantalama.png)
+
+
+#### Kodlama (Encoding)
+Sayısal sinyal, bir PCM darbesinin genliğini tanımlayan n bit uzunluğunda sayısal veri bloğuna kodlanır.
+![](kodlama.png)
+
+
+
