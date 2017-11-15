@@ -42,27 +42,12 @@ Ticari uygulamalarının verdiği isimler daha yaygınsa **de facto** standart, 
 İki farklı hat konfürasyonu vardır
 * Noktadan noktaya (point to point), İki cihaz arasında direk bağlantının olduğu durumdur. Sadece 2 bağlantı hattı paylaşır.
 
-![](http://g.gravizo.com/g?
- digraph G {
-    a [shape=box, label="İstasyon A"]
-    b [shape=box, label="İstasyon B"]
-    a -> b -> a
- })
+![](http://g.gravizo.com/g?digraph%20G%20{%20a%20[shape=box,%20label=%22%C4%B0stasyon%20A%22];%20b%20[shape=box,%20label=%22%C4%B0stasyon%20B%22];%20a%20-%3E%20b%20-%3E%20a;%20})
 
 * Çoklu nokta bğalantısı (multipoint), İkiden daha fazla cihaz hattı paylaşır, kanal kapasitesi cihazlar arasında paylaşılır.
 
 
-![](http://g.gravizo.com/g?
- digraph G {
-    a [shape=box, label="İstasyon A"]
-    b [shape=box, label="İstasyon B"]
-    c [shape=box, label="İstasyon C"]
-    hat -> a -> hat
-    hat -> b -> hat
-    hat -> c -> hat
-    hat -> Mainframe
-    Mainframe -> hat
- })
+![](http://g.gravizo.com/g?%20digraph%20G%20{%20a%20[shape=box,%20label=%22%C4%B0stasyon%20A%22]%20b%20[shape=box,%20label=%22%C4%B0stasyon%20B%22]%20c%20[shape=box,%20label=%22%C4%B0stasyon%20C%22]%20hat%20-%3E%20a%20-%3E%20hat%20hat%20-%3E%20b%20-%3E%20hat%20hat%20-%3E%20c%20-%3E%20hat%20hat%20-%3E%20Mainframe%20Mainframe%20-%3E%20hat%20})
 
 #### Topolojiler
 
@@ -75,14 +60,7 @@ Bilgisayar ağını oluşturan elemanların yada birimlerin fiziksel veya mantı
 * Halka (Ring) topoloji
 * Mesh topoloji
 
-![](http://g.gravizo.com/g?
- digraph G {
-    Topoloji
-    Topoloji -> Mesh
-    Topoloji -> Yıldız
-    Topoloji -> Yol
-    Topoloji -> Halka
- })
+![](http://g.gravizo.com/g?%20digraph%20G%20{%20Topoloji%20Topoloji%20-%3E%20Mesh%20Topoloji%20-%3E%20Y%C4%B1ld%C4%B1z%20Topoloji%20-%3E%20Yol%20Topoloji%20-%3E%20Halka%20})
 
 #### İletim Modları
 
@@ -90,27 +68,15 @@ Bilgisayar ağını oluşturan elemanların yada birimlerin fiziksel veya mantı
 
 * Simplex (Tek yön) _Televizyon_
 
-![](http://g.gravizo.com/g?
- digraph G {
-   A->B
- })
+![](http://g.gravizo.com/g?%20digraph%20G%20{%20A-%3EB%20})
 
 * Half duplex (Her iki yönde ancak aynı anda aktarım olma) _Polis radyosu_
 
-![](http://g.gravizo.com/g?
- digraph G {
-   M[shape=box,label="Müsaitse kontrolu al"]
-   A->M-> A
-   B->M-> B
- })
+![](http://g.gravizo.com/g?%20digraph%20G%20{%20M[shape=box,label=%22M%C3%BCsaitse%20kontrolu%20al%22]%20A-%3EM-%3E%20A%20B-%3EM-%3E%20B%20})
 
 * Full duplex (Aynı anda her iki yönde) _Telefon_
 
-![](http://g.gravizo.com/g?
- digraph G {
-   A->B
-   B->A
- })
+![](http://g.gravizo.com/g?%20digraph%20G%20{%20A-%3EB%20B-%3EA%20})
 
 #### Coğrafi yapılara göre ağ kategorileri
 
@@ -137,18 +103,7 @@ OSI referans modeli haberleşme sistemi problemini çözmek üzere ISO tarafınd
 * (2) Data link: İletim ortamına erişim
 * (1) Physical: İkili sayıların transferi
 
-![](http://g.gravizo.com/g?
- digraph G {
-   7[shape=box, label="7 uygulama katmanı"]
-   6[shape=box, label="6 sunum katmanı"]
-   5[shape=box, label="5 oturum katmanı"]
-   4[shape=box, label="4 taşıma katmanı"]
-   3[shape=box, label="3 ağ katmanı"]
-   2[shape=box, label="2 veri bağı katmanı"]
-   1[shape=box, label="1 fiziksel katman"]
-   7->6->5->4->3->2->1
-   1->2->3->4->5->6->7
- })
+![](http://g.gravizo.com/g?%20digraph%20G%20{%207[shape=box,%20label=%227%20uygulama%20katman%C4%B1%22]%206[shape=box,%20label=%226%20sunum%20katman%C4%B1%22]%205[shape=box,%20label=%225%20oturum%20katman%C4%B1%22]%204[shape=box,%20label=%224%20ta%C5%9F%C4%B1ma%20katman%C4%B1%22]%203[shape=box,%20label=%223%20a%C4%9F%20katman%C4%B1%22]%202[shape=box,%20label=%222%20veri%20ba%C4%9F%C4%B1%20katman%C4%B1%22]%201[shape=box,%20label=%221%20fiziksel%20katman%22]%207-%3E6-%3E5-%3E4-%3E3-%3E2-%3E1%201-%3E2-%3E3-%3E4-%3E5-%3E6-%3E7%20})
 
 #### Kapsülleme
 Katmanlar arasında header ekleme ve silme işlemidir.
